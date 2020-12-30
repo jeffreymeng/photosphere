@@ -7,3 +7,4 @@
 1. `yarn`
 2. `yarn start` to start a dev server
 3. `yarn build` to build a production build.
+4. Commits are continuously deployed by netlify.
