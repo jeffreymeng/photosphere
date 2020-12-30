@@ -29,6 +29,7 @@ if (imageToRender) {
             'autorotate',
             'zoom',
             "download",
+            'fullscreen',
             {
                 id: 'permalink-current-view',
                 content: 'Permalink Current View',
@@ -54,7 +55,7 @@ if (imageToRender) {
                 }
             },
             'caption',
-            'fullscreen'
+
         ]
     });
 } else {
