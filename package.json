@@ -1,0 +1,29 @@
+{
+  "name": "photosphere",
+  "version": "1.0.0",
+  "scripts": {
+    "develop": "parcel src/*.html",
+    "start": "npm run develop",
+    "build": "parcel build src/*.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffreymeng/photosphere.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffreymeng/photosphere/issues"
+  },
+  "homepage": "https://github.com/jeffreymeng/photosphere#readme",
+  "description": "",
+  "dependencies": {
+    "photo-sphere-viewer": "^4.0.7",
+    "query-string": "^6.13.7"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "typescript": "^4.1.3"
+  }
+}
